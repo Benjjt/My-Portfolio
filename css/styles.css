@@ -38,6 +38,9 @@
 }
 
 /* General Styles */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: var(--clr-light);
@@ -201,7 +204,7 @@ header {
   transform: rotate(0.625turn);
 }
 
-.nav.open .hamburger::before {
+.nav-open .hamburger::before {
   transform: rotate(90deg) translateX(-6px);
 }
 
@@ -449,4 +452,18 @@ header {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+/* individual portfolio item styles */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
