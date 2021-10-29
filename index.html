@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ben Thorne's Portfolio</title>
+    <link rel="icon" type="image/png" href="images/FaviconUpdated.png" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link
@@ -15,7 +16,9 @@
   <body>
     <header>
       <div class="logo">
-        <a href="index.html"><img src="images/Logo.svg" alt="" /></a>
+        <a href="index.html">
+          <img src="images/Nav--logo.svg" alt="" />
+        </a>
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -38,11 +41,9 @@
 
     <!-- Intro-->
     <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Ben Thorne</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">Web developer</p>
-      <img src="images/LaptopCoffee.jpg" class="intro__img" alt="" />
+      <h1 class="section__title section__title--intro">Hi, I'm Ben</h1>
+      <h2 class="section__subtitle section__subtitle--intro">Web developer</h2>
+      <img src="images/gifs/LogoGifLightBG.gif" class="intro__img" alt="" />
     </section>
 
     <!-- My Services -->
@@ -54,7 +55,6 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quo
             nihil voluptatum. Molestiae eaque magni quisquam veritatis sapiente
-            eos delectus.
           </p>
         </div>
 
@@ -93,38 +93,59 @@
       </p>
       <div class="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          nostrum, consequuntur magni asperiores ipsam quidem dicta doloribus ea
-          dolorem! Omnis.
+          As a self-taught developer, I always strive for improvement, writing
+          clean and maintainable code to solve the most interesting problems. I
+          pride myself on having a key eye for detail and relentless
+          determination for growing my skill-set.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea architecto
-          odio ullam reprehenderit sunt eos et, aut nemo eligendi ut porro velit
-          id dolorum. Pariatur quasi nobis nisi quae dolorem?
+          Coming from a music technology background I have always aimed to
+          explore the ways in which code can facilitate creativity and I carry
+          this very same passion into my Web Development.
         </p>
       </div>
 
-      <img src="images/Me.JPG" class="about-me__img" alt="A photo of me" />
+      <img
+        src="images/circlegraphic__aboutme.png"
+        class="about-me__img"
+        alt="A photo of me"
+      />
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
       <h2 class="section__title">My Work</h2>
-      <p class="section__subtitle">A selection of my ongoing projects.</p>
-
+      <h3 class="section__subtitle section__subtitle--work">
+        A selection of my completed and ongoing projects.
+      </h3>
       <div class="portfolio">
-        <a href="portfolio-item.html" class="portfolio__item">
-          <img src="images/SoundSourceSS.png" class="portfolio__img" alt="" />
-        </a>
-        <a href="#" class="portfolio__item">
-          <img src="images/TempImage01.jpg" class="portfolio__img" alt="" />
-        </a>
-        <a href="#" class="portfolio__item">
-          <img src="images/TempImage02.jpg" class="portfolio__img" alt="" />
-        </a>
-        <a href="#" class="portfolio__item">
-          <img src="images/TempImage03.jpg" class="portfolio__img" alt="" />
-        </a>
+        <div class="card SoundSource">
+          <div class="card-content">
+            <h2 class="card-title">SoundSource</h2>
+            <p class="card-body">
+              A Spotify Clone made with CSS, HTML and JavaScript
+            </p>
+            <a href="portfolio-item.html" class="card-button">Learn More</a>
+          </div>
+        </div>
+        <div class="card ComingSoon">
+          <div class="card-content">
+            <h2 class="card-title">Coming Soon</h2>
+            <p class="card-body">
+              This project is in the works. Come back soon to see more!
+            </p>
+            <a href="portfolio-item.html" class="card-button">Learn More</a>
+          </div>
+        </div>
+        <div class="card ComingSoon">
+          <div class="card-content">
+            <h2 class="card-title">Coming Soon</h2>
+            <p class="card-body">
+              This project is in the works. Come back soon to see more!
+            </p>
+            <a href="portfolio-item.html" class="card-button">Learn More</a>
+          </div>
+        </div>
       </div>
     </section>
 
