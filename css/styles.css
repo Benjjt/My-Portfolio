@@ -339,9 +339,6 @@ header {
   margin: 0 auto;
 }
 
-.about-me__img {
-}
-
 @media (min-width: 600px) {
   .about-me {
     display: grid;
@@ -415,6 +412,10 @@ header {
 
 .ComingSoon {
   background-image: url(../images/ComingSoon.svg);
+}
+
+.ComingSoon .card-button {
+  visibility: hidden;
 }
 
 .card:hover,
