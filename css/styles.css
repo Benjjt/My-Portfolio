@@ -93,6 +93,7 @@ strong {
   background-color: var(--clr-dark-secondary);
   color: #fff;
 }
+
 /* Typography */
 
 h1,
@@ -144,6 +145,7 @@ header {
 
 .logo {
   max-width: 90px;
+  opacity: 0.8;
 }
 .hidden {
   visibility: hidden;
@@ -434,6 +436,7 @@ header a:hover {
 }
 
 .card-content {
+  text-align: left;
   --padding: 1.5rem;
   padding: var(--padding);
   background: linear-gradient(
@@ -507,6 +510,7 @@ header a:hover {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
+
   color: #000;
   background-color: var(--clr-accent);
   padding: 0.5em 1.25em;
@@ -593,4 +597,62 @@ header a:hover {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3rem;
+}
+c_buttons {
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+}
+
+.gif-content {
+  display: flex;
+}
+
+.play-on-hover {
+  width: auto;
+  height: 20em;
+  background-image: url(../images/new.jpg);
+  background-size: cover;
+  box-shadow: var(--bs);
+}
+
+.play-on-hover:hover {
+  background-image: url(../images/gifs/SSUpdated.gif);
+}
+
+.portfolio__buttons {
+  text-align: center;
+}
+
+.portfolio__buttons .btn {
+  margin: 1rem;
+  text-align: center;
+}
+
+.multicolor {
+  background-image: linear-gradient(
+    to left,
+    #2584ff,
+    #1b0760,
+    #cb88ff,
+    #00c4cc,
+    #e43397
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 1;
+  text-align: center;
+  margin-left: -40px;
+}
+
+.fa-check {
+  color: var(--clr-accent);
+  padding-right: 0.5rem;
 }

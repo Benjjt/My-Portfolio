@@ -1,0 +1,11 @@
+.play-on-hover {
+  width: 40vw;
+  height: 50vh;
+  background-image: url(../images/new.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.play-on-hover:hover {
+  background-image: url(../images/gifs/SSGif.gif);
+}
