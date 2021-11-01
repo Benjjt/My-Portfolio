@@ -612,7 +612,7 @@ c_buttons {
 .play-on-hover {
   width: auto;
   height: 20em;
-  background-image: url(../images/new.jpg);
+  background-image: url(../images/new.webp);
   background-size: cover;
   box-shadow: var(--bs);
 }
