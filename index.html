@@ -12,15 +12,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div class="logo" data-aos="fade-right">
         <a href="index.html">
           <img src="images/Bshot.svg" alt="" />
         </a>
       </div>
-      <ul class="social-list">
+      <ul class="social-list" data-aos="fade-down">
         <li class="social-list__item">
           <a
             href="https://www.linkedin.com/in/benjamin-thorne-58a056107/"
@@ -41,7 +42,11 @@
         </li>
       </ul>
 
-      <button class="nav-toggle" aria-label="toggle navigation">
+      <button
+        class="nav-toggle"
+        aria-label="toggle navigation"
+        data-aos="fade-left"
+      >
         <span class="hamburger"></span>
       </button>
       <nav class="nav">
@@ -110,7 +115,7 @@
     </section>
 
     <!-- About Me -->
-    <section class="about-me" id="about">
+    <section class="about-me" id="about" data-aos="fade-up">
       <h2 class="section__title section__title--about">Who I am</h2>
       <p class="section__subtitle section__subtitle--about">
         Web Developer based in London (UK)
@@ -137,7 +142,7 @@
     </section>
 
     <!-- My Work -->
-    <section class="my-work" id="work">
+    <section class="my-work" id="work" data-aos="fade-up">
       <h2 class="section__title">My Work</h2>
       <h3 class="section__subtitle section__subtitle--work">
         A selection of my completed and ongoing projects.
@@ -201,5 +206,9 @@
       </ul>
     </footer>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

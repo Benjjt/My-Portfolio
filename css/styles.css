@@ -393,7 +393,7 @@ header a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 2rem;
+
   padding: 5px;
 }
 
