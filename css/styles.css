@@ -645,7 +645,7 @@ c_buttons {
   color: transparent;
 }
 
-.skills__list {
+.skills__list ul {
   list-style: none;
   padding: 1;
   text-align: center;
